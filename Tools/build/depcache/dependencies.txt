@@ -1,3 +1,7 @@
 ||:uko.cryptology.tools.BinaryMethod
 java.lang.Object
 uko.cryptology.tools.BinaryMethod
+||:uko.cryptology.tools.Generators
+java.lang.Object
+java.util.Random
+uko.cryptology.tools.Generators
