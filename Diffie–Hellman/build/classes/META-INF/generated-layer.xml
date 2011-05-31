@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="uko_cryptology_diffiehellman">
+                <file name="DiffieHellman" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--uko.cryptology.diffiehellman.DiffieHellmanTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//uko.cryptology.diffiehellman//DiffieHellman//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="uko">
+                <folder name="cryptology">
+                    <folder name="diffiehellman">
+                        <file name="DiffieHellmanTopComponent">
+                            <!--uko.cryptology.diffiehellman.DiffieHellmanTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//uko_cryptology_diffiehellman/DiffieHellman.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="uko_cryptology_diffiehellman">
+                <file name="DiffieHellman.instance">
+                    <!--uko.cryptology.diffiehellman.DiffieHellmanTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="uko.cryptology.diffiehellman.DiffieHellmanTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="uko.cryptology.diffiehellman.DiffieHellmanTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="uko-cryptology-diffiehellman-DiffieHellmanTopComponent.shadow">
+                <!--uko.cryptology.diffiehellman.DiffieHellmanTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/uko-cryptology-diffiehellman-DiffieHellmanTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="DiffieHellmanTopComponent.settings">
+                <!--uko.cryptology.diffiehellman.DiffieHellmanTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="uko.cryptology.diffiehellman.DiffieHellmanTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="DiffieHellmanTopComponent.wstcref">
+                    <!--uko.cryptology.diffiehellman.DiffieHellmanTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="DiffieHellmanTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="uko-cryptology-diffiehellman-DiffieHellmanTopComponent.instance">
+                <!--uko.cryptology.diffiehellman.DiffieHellmanTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="uko.cryptology.diffiehellman.DiffieHellmanTopComponent"/>
+                <attr name="preferredID" stringvalue="DiffieHellmanTopComponent"/>
+                <attr
+                    bundlevalue="uko.cryptology.diffiehellman.Bundle#CTL_DiffieHellmanAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

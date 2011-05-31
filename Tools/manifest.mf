@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: uko.cryptology.tools
+OpenIDE-Module-Localizing-Bundle: uko/cryptology/tools/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

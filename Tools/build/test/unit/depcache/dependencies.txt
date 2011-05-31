@@ -1,0 +1,13 @@
+||:uko.cryptology.tools.BinaryMethodTest
+java.lang.Object
+org.junit.Assert
+java.lang.System
+java.io.PrintStream
+uko.cryptology.tools.BinaryMethod
+uko.cryptology.tools.BinaryMethodTest
+||:uko.cryptology.tools.ToolsSuite
+java.lang.Object
+java.lang.Exception
+org.junit.runners.Suite$SuiteClasses
+uko.cryptology.tools.ToolsSuite
+org.junit.runners.Suite

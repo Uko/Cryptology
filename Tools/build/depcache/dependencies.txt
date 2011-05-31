@@ -1,0 +1,3 @@
+||:uko.cryptology.tools.BinaryMethod
+java.lang.Object
+uko.cryptology.tools.BinaryMethod
