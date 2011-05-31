@@ -16,6 +16,7 @@ java.awt.event.ActionListener
 ||:uko.cryptology.diffiehellman.DiffieHellmanTopComponent
 uko.cryptology.tools.BinaryMethod
 java.awt.Color
+java.awt.event.ActionEvent
 org.openide.windows.TopComponent
 org.openide.awt.Mnemonics
 javax.swing.GroupLayout$ParallelGroup
@@ -29,8 +30,8 @@ java.awt.Component
 javax.swing.JPanel
 java.util.Properties
 javax.swing.GroupLayout$SequentialGroup
-javax.swing.LayoutStyle
 uko.cryptology.tools.Generators
+javax.swing.LayoutStyle
 javax.swing.GroupLayout$Alignment
 javax.swing.GroupLayout
 java.lang.Integer
@@ -41,3 +42,4 @@ uko.cryptology.diffiehellman.DiffieHellmanTopComponent$2
 java.lang.NumberFormatException
 uko.cryptology.diffiehellman.DiffieHellmanTopComponent$1
 javax.swing.GroupLayout$Group
+java.lang.String

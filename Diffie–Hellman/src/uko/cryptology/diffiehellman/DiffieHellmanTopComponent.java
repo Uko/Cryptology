@@ -132,7 +132,6 @@ public final class DiffieHellmanTopComponent extends TopComponent
 
         jPanel2.setBackground(new java.awt.Color(255, 204, 204));
 
-        aTextField.setEditable(false);
         aTextField.setText(org.openide.util.NbBundle.getMessage(DiffieHellmanTopComponent.class, "DiffieHellmanTopComponent.aTextField.text")); // NOI18N
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel3, org.openide.util.NbBundle.getMessage(DiffieHellmanTopComponent.class, "DiffieHellmanTopComponent.jLabel3.text")); // NOI18N
@@ -188,7 +187,6 @@ public final class DiffieHellmanTopComponent extends TopComponent
 
         jPanel3.setBackground(new java.awt.Color(204, 204, 255));
 
-        bTextField.setEditable(false);
         bTextField.setText(org.openide.util.NbBundle.getMessage(DiffieHellmanTopComponent.class, "DiffieHellmanTopComponent.bTextField.text")); // NOI18N
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel4, org.openide.util.NbBundle.getMessage(DiffieHellmanTopComponent.class, "DiffieHellmanTopComponent.jLabel4.text")); // NOI18N
@@ -286,10 +284,22 @@ public final class DiffieHellmanTopComponent extends TopComponent
 		{
 			int p = Integer.parseInt(pTextField.getText());
 			int q = Integer.parseInt(qTextField.getText());
-			if((p>2)&&(q<p-1)&&(q>0))
+			int a;
+			int b;
+			if(aTextField.getText().equals(""))
 			{
-				int a=Generators.generate(2, p - 2);
-				int b=Generators.generate(2, p - 2);
+				a=Generators.generate(2, p - 2);
+			}
+			else
+				a=Integer.parseInt(aTextField.getText());
+			if(bTextField.getText().equals(""))
+			{
+				b=Generators.generate(2, p - 2);
+			}
+			else
+				b=Integer.parseInt(bTextField.getText());
+			if((p>2)&&(q<p-1)&&(q>0)&&(a>1)&&(a<p-1)&&(b>1)&&(b<p-1))
+			{
 				aTextField.setText(new Integer(a).toString());
 				bTextField.setText(new Integer(b).toString());
 				int A=BinaryMethod.calculate(q, a, p);

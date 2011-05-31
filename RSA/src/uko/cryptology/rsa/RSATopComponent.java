@@ -218,6 +218,7 @@ public final class RSATopComponent extends TopComponent
 
         srcTextArea.setColumns(20);
         srcTextArea.setRows(5);
+        srcTextArea.setText(org.openide.util.NbBundle.getMessage(RSATopComponent.class, "RSATopComponent.srcTextArea.text")); // NOI18N
         jScrollPane1.setViewportView(srcTextArea);
 
         dstTextArea.setColumns(20);
@@ -349,7 +350,7 @@ public final class RSATopComponent extends TopComponent
 			String text = srcTextArea.getText();
 			int n = Integer.parseInt(n2TextField.getText());
 			int ed = Integer.parseInt(edTextField.getText());
-			char[] dst = new char[text.length() + 5];
+			char[] dst = new char[text.length()];
 			for (int i = 0; i < text.length(); i++)
 			{
 				dst[i] = (char) BinaryMethod.calculate((int) text.charAt(i), ed, n);
