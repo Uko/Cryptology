@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="uko_cryptology_frequency">
+                <file name="FrequencyCounter" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--uko.cryptology.frequency.FrequencyCounterTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//uko.cryptology.frequency//FrequencyCounter//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="uko">
+                <folder name="cryptology">
+                    <folder name="frequency">
+                        <file name="FrequencyCounterTopComponent">
+                            <!--uko.cryptology.frequency.FrequencyCounterTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//uko_cryptology_frequency/FrequencyCounter.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="uko_cryptology_frequency">
+                <file name="FrequencyCounter.instance">
+                    <!--uko.cryptology.frequency.FrequencyCounterTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="uko.cryptology.frequency.FrequencyCounterTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="uko.cryptology.frequency.FrequencyCounterTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="uko-cryptology-frequency-FrequencyCounterTopComponent.shadow">
+                <!--uko.cryptology.frequency.FrequencyCounterTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/uko-cryptology-frequency-FrequencyCounterTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="FrequencyCounterTopComponent.settings">
+                <!--uko.cryptology.frequency.FrequencyCounterTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="uko.cryptology.frequency.FrequencyCounterTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="FrequencyCounterTopComponent.wstcref">
+                    <!--uko.cryptology.frequency.FrequencyCounterTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="FrequencyCounterTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="uko-cryptology-frequency-FrequencyCounterTopComponent.instance">
+                <!--uko.cryptology.frequency.FrequencyCounterTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="uko.cryptology.frequency.FrequencyCounterTopComponent"/>
+                <attr name="preferredID" stringvalue="FrequencyCounterTopComponent"/>
+                <attr
+                    bundlevalue="uko.cryptology.frequency.Bundle#CTL_FrequencyCounterAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="uko_cryptology_fence">
+                <file name="Fence" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--uko.cryptology.fence.FenceTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//uko.cryptology.fence//Fence//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="uko">
+                <folder name="cryptology">
+                    <folder name="fence">
+                        <file name="FenceTopComponent">
+                            <!--uko.cryptology.fence.FenceTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//uko_cryptology_fence/Fence.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="uko_cryptology_fence">
+                <file name="Fence.instance">
+                    <!--uko.cryptology.fence.FenceTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="uko.cryptology.fence.FenceTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="uko.cryptology.fence.FenceTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="uko-cryptology-fence-FenceTopComponent.shadow">
+                <!--uko.cryptology.fence.FenceTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/uko-cryptology-fence-FenceTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="FenceTopComponent.settings">
+                <!--uko.cryptology.fence.FenceTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="uko.cryptology.fence.FenceTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="FenceTopComponent.wstcref">
+                    <!--uko.cryptology.fence.FenceTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="FenceTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="uko-cryptology-fence-FenceTopComponent.instance">
+                <!--uko.cryptology.fence.FenceTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="uko.cryptology.fence.FenceTopComponent"/>
+                <attr name="preferredID" stringvalue="FenceTopComponent"/>
+                <attr
+                    bundlevalue="uko.cryptology.fence.Bundle#CTL_FenceAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
